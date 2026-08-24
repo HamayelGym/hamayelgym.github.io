@@ -45,22 +45,25 @@ body {
 .arabic,
 .cta-arabic {
   font-family: 'Cairo', sans-serif;
-  
-  *:lang(ar),
-.arabic,
-[dir="rtl"],
-.cta-arabic {
+}
+
+*:lang(ar) {
   font-family: 'Cairo', sans-serif !important;
 }
-}
-}
+
 h1, h2, h3, h4 {
   font-family: 'Inter', system-ui, sans-serif;
   text-wrap: balance;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
-img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 12px 32px;
   display: flex; align-items: center; justify-content: space-between;
